@@ -1,9 +1,10 @@
 import * as vscode from 'vscode';
-import { StoicQuote } from './interfaces/StoicQuote';
+import { getStoicQuote } from './lib/getStoicQuote';
 
 export function activate(context: vscode.ExtensionContext) {
-	const disposable = vscode.commands.registerCommand('memento-mori.helloWorld', () => {
-		vscode.window.showInformationMessage('Hello World from Memento Mori!');
+	const disposable = vscode.commands.registerCommand('memento-mori.mementoMori', async () => {
+		const quoteData = await getStoicQuote();
+		vscode.window.showInformationMessage(quoteData.quote);
 	});
 
 	context.subscriptions.push(disposable);

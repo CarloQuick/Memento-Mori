@@ -14,8 +14,15 @@
   "contributes": {
     "commands": [
       {
-        "command": "memento-mori.helloWorld",
-        "title": "Hello World"
+        "command": "memento-mori.mementoMori",
+        "title": "Memento Mori"
+      }
+    ],
+    "keybindings":[
+      {
+        "command": "memento-mori.mementoMori",
+        "key": "ctrl+alt+m",
+        "mac": "cmd+alt+m"
       }
     ]
   },
