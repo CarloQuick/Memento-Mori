@@ -1,6 +1,7 @@
 {
   "name": "memento-mori",
   "displayName": "Memento Mori",
+  "publisher": "CQuick",
   "description": "",
   "version": "0.0.1",
   "engines": {
