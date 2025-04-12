@@ -15,13 +15,13 @@ As of April 12, 2025, quotes can be displayed in two ways:
    - macOS: `Cmd + Shift + P`
    - Windows: `Ctrl + Shift + P`
    - Then search for and select **Memento Mori**
-     ![](public\memento-mori-command-palette.gif)
+![CP](public/memento-mori-command-palette.gif)
 
 2. **Using keybindings**
 
    - macOS: `Cmd + Shift + M`
    - Windows: `Ctrl + Shift + M`
-     ![](public\memento-mori-keybind.gif)
+![](public/memento-mori-keybind.gif)
 
 ## Release Notes
 
