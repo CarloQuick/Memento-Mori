@@ -1,71 +1,42 @@
-# memento-mori README
-
-This is the README for your extension "memento-mori". After writing up a brief description, we recommend including the following sections.
+# Memento Mori VS Code Extension
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This minimalist extension displays a simple, timeless quote inspired by Stoic philosophy whenever triggered. Created to serve as a quiet mental reset throughout the day, it’s a personal tool designed to encourage mindfulness, clarity, and emotional balance—reminding us of what really matters, one quote at a time.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+It uses the [stoic-quote-lambda-public-api](https://github.com/tlcheah2/stoic-quote-lambda-public-api) by [tlcheah2](https://github.com/tlcheah2) for the Stoic quotes.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+As of April 12, 2025, quotes can be displayed in two ways:
 
-For example:
+1. **Via the Command Palette**
 
-This extension contributes the following settings:
+   - macOS: `Cmd + Shift + P`
+   - Windows: `Ctrl + Shift + P`
+   - Then search for and select **Memento Mori**
+     ![](public\memento-mori-command-palette.gif)
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+2. **Using keybindings**
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+   - macOS: `Cmd + Shift + M`
+   - Windows: `Ctrl + Shift + M`
+     ![](public\memento-mori-keybind.gif)
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
+Initial release of the Memento Mori VS Code extension.
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- Displays a Stoic quote on command.
+- Designed for quiet moments of mindfulness and reflection.
+- Minimal setup for future feature development.
 
 ---
 
-## Following extension guidelines
+## Following Extension Guidelines
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+Make sure to review the official extension guidelines and follow best practices for publishing and maintaining your extension.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Enjoy and stay present.**
